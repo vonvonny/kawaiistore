@@ -9,6 +9,7 @@
     --yellow: #F29E6D;
     --black:#1c1818;
     --white:#ffffff;
+    --darkpurple:#2A2740;
     margin: 0%;
     padding: 0%;
 }
@@ -45,14 +46,60 @@
 /*---------------------------here starts the form----------------------*/
 
 #main {
-    background-color: var(--white);
+    background-image: url('https://e0.pxfuel.com/wallpapers/311/927/desktop-wallpaper-ideas-in-2021-cute-iphone-cute-cute-background-kirby-laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 #mainform {
-    background-color: var(--pink);
-    width: 60vw;
+    backdrop-filter: blur(10px);
+    width: 50vw;
+    height: 80vh;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px var(--darkpurple);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#papa{
+    gap: 25px;
+    flex-direction: column;
+    display: flex;
+    width: 20vw;
     height: 70vh;
 }
+#button {
+margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#fname {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#last {
+    display: flex;
+    justify-content:space-between;
+}
+#Email {
+    display: flex;
+    justify-content:space-between;
+    
+}  
+#phone {
+    display: flex;
+    justify-content:space-between;
+}
+#information {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+
