@@ -81,25 +81,12 @@ align-items: center;
 }
 #fname {
     margin-top: 90px;
-    display: flex;
-    justify-content: space-between;
 }
-#last {
-    display: flex;
-    justify-content:space-between;
-}
-#Email {
-    display: flex;
-    justify-content:space-between;
-    
-}  
-#phone {
+.input {
     display: flex;
     justify-content:space-between;
 }
 #information {
-    display: flex;
-    justify-content:space-between;
     flex-direction: column;
 }
 
